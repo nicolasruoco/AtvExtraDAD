@@ -16,7 +16,7 @@ export default function Secao({title, subtitle, products, days, hours, minutes, 
         <div className={styles.secao}>
                     <div className={styles.subtitulo}>
                     <div className={styles.redDiv}></div> <p className={styles.subtitleText}>{subtitle}</p>
-                </div>
+        </div>
                 <div className={styles.linhaTitulo}>
                     <h2 className={styles.title}>{title}</h2>
         

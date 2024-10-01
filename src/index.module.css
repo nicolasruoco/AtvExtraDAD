@@ -2,3 +2,36 @@
     width: 55.75rem;
     margin: 13rem auto 5rem;
 }
+
+.secaoCategorias{
+    margin-left: 2rem;
+}
+
+.secao{
+    margin-left: 10.5rem;
+    position: relative;
+}
+
+.redDiv{
+    background-color: #e46060;
+    width: 1rem;
+    height: 2rem;
+    border-radius: 4px;
+}
+
+.subtitulo{
+    display: flex;
+    align-items: center;
+    
+}
+
+.subtitleText{
+    margin-left: 1rem;
+    color: #e46060
+}
+
+.title{
+    font-size: 2.5rem;
+    display: block;
+    margin-top: 2rem;
+}

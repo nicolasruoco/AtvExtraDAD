@@ -56,6 +56,7 @@ createRoot(document.getElementById('root')).render(
     <Header />
     <img src={banner} className={styles.banner}></img>
     <Secao subtitle="Today" title="Flash Sales" days="03" hours="23" minutes="19" seconds="56" isTimer={true} products= {produtos} isViewAll={true}/>
+
     <img src={footer}></img>
   </StrictMode>,
 )
