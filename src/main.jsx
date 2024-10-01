@@ -10,6 +10,12 @@ import CincoEstrelas from "./assets/FiveStar.png"
 import QuatroEstrelas from "./assets/FourStar.png"
 import FourHalfStar from "./assets/FourHalfStar.png"
 import footer from "./assets/footer.png"
+import phone from "./assets/CategoryCellPhone.svg"
+import computers from "./assets/CategoryComputer.svg"
+import camera from "./assets/CategoryCamera.svg"
+import gamepad from "./assets/CategoryGamepad.png"
+import headphone from "./assets/CategoryHeadphone.png"
+import smartwatch from "./assets/CategorySmartWatch.svg"
 
 const produtos = [
   {
@@ -51,11 +57,40 @@ const produtos = [
   // }
 ]
 
+const categories = [
+  {
+    "text": "Phones",
+    "image": phone
+  },
+  {
+    "text": "Computers",
+    "image": computers
+  },
+  {
+    "text": "Cameras",
+    "image": camera
+  },
+  {
+    "text": "Games",
+    "image": gamepad
+  },
+  {
+    "text": "Headphones",
+    "image": headphone
+  },
+  {
+    "text": "Smartwatches",
+    "image": smartwatch
+  }
+]
+
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <Header />
     <img src={banner} className={styles.banner}></img>
     <Secao subtitle="Today" title="Flash Sales" days="03" hours="23" minutes="19" seconds="56" isTimer={true} products= {produtos} isViewAll={true}/>
+
+    <Secao subtitle="Categories" title="Browse By Categories" isCategorie={true} categories={categories}/>
 
     <img src={footer}></img>
   </StrictMode>,
