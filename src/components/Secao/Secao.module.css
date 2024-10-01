@@ -1,0 +1,91 @@
+.secao{
+    margin-left: 10.5rem;
+    position: relative;
+}
+
+.redDiv{
+    background-color: #e46060;
+    width: 1rem;
+    height: 2rem;
+    border-radius: 4px;
+}
+
+.subtitulo{
+    display: flex;
+    align-items: center;
+    
+}
+
+.subtitleText{
+    margin-left: 1rem;
+    color: #e46060
+}
+
+.title{
+    font-size: 2.5rem;
+    display: block;
+    margin-top: 2rem;
+}
+
+.linhaTitulo{
+    display: flex;
+    align-items: center;
+}
+
+.timer{
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.agrupamento{
+    display: flex;
+    flex-direction: column;
+    width: 3rem;
+}
+
+.cronometro{
+    display: flex;
+    align-items: center;
+    margin-left: 5rem;
+    margin-top: 1rem;
+}
+
+.doisPontos{
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #E07575;
+    
+    margin: 0 1rem;
+}
+
+.setas{
+    position: absolute;
+    right: 11rem;
+    margin-top: 1rem;
+}
+
+.containerProdutos{
+    display: flex;
+    gap: 2.7rem;
+    flex-wrap: wrap;
+}
+
+.viewAll{
+    background-color: #DB4444;
+    color: white;
+    border-radius: 4px;
+    width: 15rem;
+    height: 3.5rem;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.viewAllContainer{
+    position: absolute;
+    margin-left: 22rem;
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}

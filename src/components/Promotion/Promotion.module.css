@@ -1,0 +1,51 @@
+.promotion {
+  padding: 20px;
+  background-color: black;
+  color: white;
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+
+  justify-content: space-around;
+}
+
+.Link{
+    text-decoration: underline;
+    margin-left: 20px;
+}
+
+.Link:link{
+    color: white;
+}
+
+.Link:visited{
+    color: white;
+}
+
+.Link:hover{
+    color: white;
+}
+
+.Link:active{
+    color: white;
+}  
+
+.select{
+    background: none;
+    color: white;
+    border: none;
+    cursor: pointer;
+
+    position: absolute;
+    right: 10%;
+}
+
+.select:focus{
+    outline: none;
+}
+
+.option{
+    background-color: black;
+    color: white;
+}
